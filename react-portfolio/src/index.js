@@ -12,7 +12,7 @@ class App extends Component {
         return (
             <div>
                 <Navigation logoTitle="Preston J. Edwards Jr." />
-                <Header title="Stylish Portfolio" />
+                <Header title="Web Portfolio" button= "Find Out More"/>
 
             </div>
         );

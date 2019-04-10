@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Background from "./img/webdesign.png";
-
+import "./Header.css";
 
 const myStyles = {
     backgroundImage: `url( ${Background} )`,
@@ -13,8 +13,8 @@ class Header extends Component {
 
             <header style={myStyles}>
                 <h1>{this.props.title}</h1>
-                <p></p>
-                <a href="#button"></a>
+                <p>Looking for Entry Level Web Opportunity</p>
+                <a href="#button">{this.props.button}</a>
             </header>
         );
     }

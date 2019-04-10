@@ -8,7 +8,7 @@ class Navigation extends Component {
     const sections = ["Home","About", "Portfolio","Contact"];
     const navLinks = sections.map(section  => {
 return(
-  <li> <a href = {"#" + section}>{section}</a></li>
+  <li key={section}> <a href = {"#" + section}>{section}</a></li>
 )
     });
     return (
